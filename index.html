@@ -1,8 +1,208 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>Selamat datang di website kami</title>
-  </head>
-  <body>
-    <h1>Welcome to my site</h1>
-  </body> 
+<head>
+    <title>MyComputer</title>
+
+    <style>
+        body {
+            background-color: #f0f4f8;
+            color: #102d54;
+            font-family: Arial;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            background-color: #102d54;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #102d54;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    nav {
+    margin: 25px 0;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #102d54;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #315b8c;
+}
+h3 {
+    color: #102d54;
+    margin-top: 25px;
+}
+
+h2 {
+    color: #102d54;
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Computer</h1>
+
+    <p>Aplikasi Pengenalan Komponen Komputer</p>
+
+    <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#komponen">Komponen</a>
+    <a href="#input">Input & Output</a>
+    <a href="#cara">Cara Kerja</a>
+    <a href="#kuis">Kuis</a>
+</nav>
+<h2 id="beranda">Beranda</h2>
+<p>Selamat belajar tentang komputer!</p>
+
+<h2 id="komponen">Komponen Komputer</h2>
+
+<h3>1. CPU (Processor)</h3>
+<p>CPU berfungsi mengolah data dan menjalankan instruksi komputer.</p>
+
+<h3>2. Motherboard</h3>
+<p>Motherboard berfungsi menghubungkan seluruh komponen komputer.</p>
+
+<h3>3. RAM</h3>
+<p>RAM berfungsi menyimpan data sementara saat komputer digunakan.</p>
+
+<h3>4. HDD dan SSD</h3>
+<p>Berfungsi menyimpan data, aplikasi, dan sistem operasi.</p>
+
+<h3>5. Power Supply (PSU)</h3>
+<p>Berfungsi menyediakan dan menyalurkan daya listrik ke komputer.</p>
+
+<h3>6. VGA atau GPU</h3>
+<p>Berfungsi mengolah grafis dan tampilan gambar komputer.</p>
+
+<h3>7. Cooling Fan</h3>
+<p>Berfungsi membantu menjaga suhu komponen komputer.</p>
+
+<h2 id="input">Input dan Output</h2>
+
+<h3>Perangkat Input (Masukan)</h3>
+
+<p>1. Keyboard: untuk memasukkan huruf dan angka.</p>
+
+<p>2. Mouse: untuk menggerakkan kursor.</p>
+
+<p>3. Microphone: untuk memasukkan suara.</p>
+
+<p>4. Scanner: untuk memindai dokumen.</p>
+
+<h3>Perangkat Output (Keluaran)</h3>
+
+<p>1. Monitor: untuk menampilkan gambar.</p>
+
+<p>2. Printer: untuk mencetak dokumen.</p>
+
+<p>3. Speaker: untuk mengeluarkan suara.</p>
+
+<p>4. Projector: untuk menampilkan gambar ke layar besar.</p>
+
+<h2 id="cara">Cara Kerja Komputer</h2>
+
+<h3>1. Input (Masukan)</h3>
+<p>Pengguna memasukkan data melalui keyboard, mouse, atau perangkat lainnya.</p>
+
+<h3>2. Process (Pemrosesan)</h3>
+<p>CPU mengolah data sesuai instruksi yang diberikan.</p>
+
+<h3>3. Output (Keluaran)</h3>
+<p>Komputer menampilkan hasil pengolahan melalui monitor, printer, atau speaker.</p>
+
+<h3>4. Storage (Penyimpanan)</h3>
+<p>Data disimpan menggunakan HDD atau SSD agar dapat digunakan kembali.</p>
+
+<h2 id="kuis">Kuis MyComputer</h2>
+
+<p>Jawablah pertanyaan berikut dengan benar!</p>
+
+<form id="quiz">
+
+    <h3>1. Apa fungsi CPU?</h3>
+    <input type="radio" name="q1" value="a"> Menyimpan data<br>
+    <input type="radio" name="q1" value="b"> Mengolah data<br>
+    <input type="radio" name="q1" value="c"> Menampilkan gambar<br>
+
+    <h3>2. Apa fungsi RAM?</h3>
+    <input type="radio" name="q2" value="a"> Menyimpan data sementara<br>
+    <input type="radio" name="q2" value="b"> Mencetak dokumen<br>
+    <input type="radio" name="q2" value="c"> Mengeluarkan suara<br>
+
+    <h3>3. Apa fungsi Motherboard?</h3>
+    <input type="radio" name="q3" value="a"> Menghubungkan komponen komputer<br>
+    <input type="radio" name="q3" value="b"> Menyimpan file<br>
+    <input type="radio" name="q3" value="c"> Mendinginkan komputer<br>
+
+    <h3>4. Perangkat yang termasuk Input adalah?</h3>
+    <input type="radio" name="q4" value="a"> Monitor<br>
+    <input type="radio" name="q4" value="b"> Printer<br>
+    <input type="radio" name="q4" value="c"> Keyboard<br>
+
+    <h3>5. Apa fungsi SSD?</h3>
+    <input type="radio" name="q5" value="a"> Mengolah grafis<br>
+    <input type="radio" name="q5" value="b"> Menyimpan data<br>
+    <input type="radio" name="q5" value="c"> Mengatur suhu<br>
+
+    <br>
+    <button type="button" onclick="hitungNilai()">
+        Lihat Nilai
+    </button>
+
+</form>
+
+<h3 id="hasil"></h3>
+<script>
+function hitungNilai() {
+
+    let benar = 0;
+
+    let jawaban = {
+        q1: "b",
+        q2: "a",
+        q3: "a",
+        q4: "c",
+        q5: "b"
+    };
+
+    for (let nomor in jawaban) {
+
+        let pilihan = document.querySelector(
+            'input[name="' + nomor + '"]:checked'
+        );
+
+        if (pilihan && pilihan.value === jawaban[nomor]) {
+            benar++;
+        }
+    }
+
+    let nilai = benar * 20;
+
+    document.getElementById("hasil").innerHTML =
+        "Jawaban benar: " + benar +
+        " dari 5 soal. Nilai kamu: " + nilai;
+}
+</script>
+</body>
 </html>
